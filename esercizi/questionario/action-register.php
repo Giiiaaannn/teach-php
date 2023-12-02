@@ -24,7 +24,7 @@ if (isset($_GET['password']) && $_GET['password'] === $password) {
     <body>
         <center>
             <?php
-            $welcomeMessage = isset($_GET['nome']) ? "Benvenuto " . htmlspecialchars($_GET['nome']) : "Benvenuto";
+            $welcomeMessage = isset($_GET['nome']) ? "Benvenuto/a " . htmlspecialchars($_GET['nome']) : "Benvenuto";
             ?>
             <h1><?php echo $welcomeMessage; ?></h1>
         

@@ -20,11 +20,20 @@
       <label for="password">password:</label><br>
       <input type="password" id="password" name="password" required><br>
 
+      <label for="email">email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
       <label for="età">età:</label><br>
       <input type="number" id="età" name="età" required><br>
 
       <label for="sport preferito">sport preferito:</label><br>
-      <input type="text" id="sport preferito" name="sport preferito" required><br>
+      <input type="text" id="sport preferito" name="sport preferito" required><br><br>
+
+      genere:<br>
+      <input type="radio" name="genere" value="Femmina">Femmina
+      <input type="radio" name="genere" value="Maschio">Maschio
+      <input type="radio" name="genere" value="Altro">Altro <br><br>
+
 
       <label for="colore sfondo">Seleziona colore di sfondo:</label><br>
       <input type="color" id="color" name="color" required><br><br>
@@ -34,6 +43,7 @@
 </center>
 
     </form>
+    
   </div>
 
 </body>
